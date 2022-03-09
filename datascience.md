@@ -135,8 +135,8 @@ source è inverso di dump.
 # Corso 3 Clening Data
 ## Week 1
 I dati li trovo raw, diversi formati etc,  
-
-
+Raw data -> Processing script -> (processed) tidy data -> Analisi -> decisioni
+Tidy Data: è un dataset, dopo i raw data,ordinati e lavorati. Per ogni osservaz. ho un datapoint
 
 
 
