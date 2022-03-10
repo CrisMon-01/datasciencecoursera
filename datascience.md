@@ -137,9 +137,20 @@ source è inverso di dump.
 I dati li trovo raw, diversi formati etc,  
 Raw data -> Processing script -> (processed) tidy data -> Analisi -> decisioni
 Tidy Data: è un dataset, dopo i raw data,ordinati e lavorati. Per ogni osservaz. ho un datapoint
-
-
-
+Lavorare con file: getwd() e setwd(path relativo o assoluto)
+if(!file.exists("data")){
+    dir.createdir("data")
+}
+download.file() download da internet, ha come param url, destfile, method (HTTP/S, curl etc)
+read.table() funz famosa in r per leggere file, tipo csv etc, mette in RAM, occhio alle dim.  
+Excel: 
+write/read.xlsx o xlsx2 (più veloce)
+XML dati strutturati con markup. Si usa xpath per navigarli
+JSON: è strutturato per servizi rest. Può contenere Numeri, Stringhe, bool, obj, array etc
+per leggerlo: fromJson("url") per crearli: toJSON()
+data.table PKG efficente per dataframe
+data.frame(opz)
+tables() -> rit dataframe in memo
 
 
 
